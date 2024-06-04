@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="sidebar">
+        <label>Axis X</label>
+        <input title="axisX" id="axisX" type="range" value="0" min="0" max="360">
+        <label>Axis Y</label>
+        <input title="axisY" id="axisY" type="range" value="0" min="0" max="360">
+        <label>Axis Z</label>
+        <input title="axisZ" id="axisZ" type="range" value="0" min="0" max="360">
+        <label>Scala</label>
+        <input title="axisZ" id="scala" type="range" value="100" min="50" max="250">
+        
+        <!--Viewer-->
+        <label>Deep</label>
+        <input title="axisZ" id="deep" type="range" value="100" min="0" max="1000">
+    </div>
+    <div id="playground">
+        <canvas width="600" height="600"></canvas>
+    </div>
+    <script src="GObject.js"></script>
+    <script src="GeometryObjects/Cube.js"></script>
+    <script src="GeometryObjects/Pyramid.js"></script>
+    <script src="GeometryObjects/Octahedron.js"></script>
+    <script src="GeometryObjects/Tetrahedron.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

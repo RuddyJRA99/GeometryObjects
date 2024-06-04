@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    /*overflow: hidden;*/
+}
+  
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(230, 230, 230);
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+#playground{
+    overflow: hidden;
+    background-color: black;
+    box-sizing: content-box;
+}
+
+canvas{
+    border: rgb(167, 164, 164) solid 1px;
+    
+}
